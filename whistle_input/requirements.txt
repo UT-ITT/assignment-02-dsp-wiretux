@@ -1,0 +1,8 @@
+cffi==2.0.0
+evdev==1.9.3
+numpy==2.4.4
+pycparser==3.0
+pynput==1.8.1
+python-xlib==0.33
+six==1.17.0
+sounddevice==0.5.5

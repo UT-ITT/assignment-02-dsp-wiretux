@@ -281,7 +281,7 @@ def update(delta):
             targetMidi = note.note
             diff = abs(currentVoiceMidi - targetMidi)
 
-            if (diff % 12 < 1 or diff % 12 > 11) and currentMicPitch > 0:
+            if (diff % 12 <= 1 or diff % 12 >= 11) and currentMicPitch > 0:
                 note.hitTime += 1
 
             # Mark the current note
